@@ -94,8 +94,6 @@ win_files           = [ '.\\now-ui.json',
 win_dirs_and_files = [  '.\\src\\x-853443-component-template\\__tests__\\test.x-853443-component-template.js',
                         '.\\src\\x-853443-component-template' ]
 
-print("scope_name: ",scope_name,new_scope_name)
-print("component_name: ", component_name,new_component_name)
 # If we're running Linux/Mac based, use mac files, elif we're using Windows, use Windows filepaths
 if  os.name == 'posix':
     #replace scope in all files but this one & then update directory names
