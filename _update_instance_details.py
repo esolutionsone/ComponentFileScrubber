@@ -63,14 +63,6 @@ if change_component_name.lower() == 'y' or change_component_name.lower() == 'yes
             new_component_name_valid = True
         print("\n")
 
-#    if  os.name == 'posix':
-#        replace_old_scope_name_in_file(['./_update_instance_details.py'], component_name, new_component_name)
-#    elif os.name == 'nt':
-#        replace_old_scope_name_in_file(['./_update_instance_details.py'], component_name, new_component_name)
-#    prGreen('Updated component name in _update_instance_details.py file! \n')
-# Call functions to replace scope old_scope_namees in file contents & to rename directories, & files
-# First cleanup file contents, then files, then directories to ensure the no "file not found" errors
-
 #Check if we're in the appropriate directory
 #If not, Navigate to the appropriate directory to run the script
 #If the above doesn't work, add note to user that we need to be in the correct directory
