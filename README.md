@@ -1,5 +1,4 @@
 # ComponentFileScrubber
-===============================================
 
 ## Intro
 Have you built a ServiceNow UI Builder Component and tried sharing it with a co-worker, industry contact, or the ServiceNow community? If so whoever it was shared with likely encountered an error when trying to develop with and deploy the component as the file-paths will be associated with the incorrect app-creator company code!
